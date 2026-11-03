@@ -44,6 +44,7 @@ export default function Home() {
       <p className="muted" style={{maxWidth:780}}>Property Investors conecta oportunidades inmobiliarias con personas que quieren invertir. Nuestro punto de partida es escuchar: entender tus objetivos y acompañarte con una propuesta adaptada a tus características. Además de buscar activos, trabajamos en generar oportunidades con una estrategia definida para cada proyecto.</p>
       <Link href="/inversores" className="button">Queremos conocerte</Link>
     </div></section>
+    <section className="section subtle" id="ofrece-tu-activo"><div className="wrap"><span className="kicker">¿Tienes un inmueble con potencial?</span><h2>Acércanos tu próxima oportunidad.</h2><p className="muted" style={{maxWidth:740}}>Si eres propietario o colaborador y tienes un piso, edificio, local u otro activo que pueda encajar en un proyecto de inversión, queremos conocerlo. Comparte sus características y estudiaremos sus posibilidades.</p><Link className="button" href="/ofrece-tu-activo">Ofrece tu activo →</Link></div></section>
     <section className="section wrap" id="preguntas-frecuentes"><span className="kicker">Preguntas frecuentes</span><h2>Antes de empezar.</h2>
       <div className="faq">
         <details><summary>¿Qué ocurre después de rellenar el cuestionario?</summary><p className="muted">Nos pondremos en contacto contigo para conocerte mejor, aclarar tus preferencias y valorar qué oportunidades pueden encajar.</p></details>
