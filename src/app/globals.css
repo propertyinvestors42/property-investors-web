@@ -11,4 +11,16 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offs
 @media(max-width:960px){.steps-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:720px){.service-grid,.steps-grid{grid-template-columns:1fr}.wrap.section{padding-left:24px;padding-right:24px}}
 
-.header-contact{display:flex;justify-content:flex-end;align-items:center;flex-wrap:wrap;gap:12px 26px;padding-top:13px;padding-bottom:13px;font-size:13px;color:var(--gold);border-bottom:1px solid #292929}.header-contact a{padding:4px 0}.header-contact a:hover{color:white;text-decoration:underline;text-underline-offset:4px}@media(max-width:480px){.header-contact{gap:4px 18px;font-size:12px}}
+
+.header-contact{display:flex;justify-content:flex-end;align-items:center;flex-wrap:wrap;gap:28px;padding-top:16px;padding-bottom:16px;border-bottom:1px solid #292929}
+.contact-channel{display:inline-flex;align-items:center;gap:10px;min-height:44px}
+.header-contact svg{width:22px;height:22px;flex-shrink:0;color:var(--gold)}
+.contact-label,.contact-value{display:block}
+.contact-label{font-size:10px;line-height:1.5;letter-spacing:.1em;text-transform:uppercase;color:#b8b3aa}
+.contact-value{font-size:13px;line-height:1.6;color:#f4f1eb}
+.contact-channel:hover .contact-value{color:var(--gold)}
+.header-booking{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:46px;padding:12px 18px;border:1px solid var(--gold);border-radius:5px;background:var(--gold);color:#151515;font-size:13px;font-weight:700;transition:background .2s}
+.header-booking svg{color:inherit;width:19px;height:19px}
+.header-booking:hover{background:#dfbd7c}
+@media(max-width:720px){.header-contact{gap:12px 22px}.header-booking{padding:11px 14px}}
+@media(max-width:480px){.header-contact{display:grid;grid-template-columns:1fr;justify-items:end;gap:10px;padding-top:14px;padding-bottom:14px}.contact-channel{min-height:40px}.header-booking{width:100%;margin-top:4px}}
