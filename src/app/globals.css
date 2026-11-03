@@ -10,3 +10,5 @@
 a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:5px}
 @media(max-width:960px){.steps-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:720px){.service-grid,.steps-grid{grid-template-columns:1fr}.wrap.section{padding-left:24px;padding-right:24px}}
+
+.header-contact{display:flex;justify-content:flex-end;align-items:center;flex-wrap:wrap;gap:12px 26px;padding-top:13px;padding-bottom:13px;font-size:13px;color:var(--gold);border-bottom:1px solid #292929}.header-contact a{padding:4px 0}.header-contact a:hover{color:white;text-decoration:underline;text-underline-offset:4px}@media(max-width:480px){.header-contact{gap:4px 18px;font-size:12px}}
