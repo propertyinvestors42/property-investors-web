@@ -14,6 +14,10 @@ const strategies = [
   ["Alquiler habitacional", "Inversiones orientadas al alquiler por habitaciones, valorando la distribución, los gastos y la gestión."]
 ];
 
+const strategyIconPaths = ["M3 11 12 3l9 8M5 10v11h14V10M9 21v-7h6v7","M4 8h14m-4-4 4 4-4 4M20 16H6m4-4-4 4 4 4M4 3v2m16 14v2","M4 21V3h11v18M15 9h5v12M8 7h3M8 11h3M8 15h3M8 19h3M18 13v1m0 3v1M2 21h20","M3 11 9 5l6 6M5 10v10h8v-6m2-1a3 3 0 1 1 4 3l-2 2h-2v2h-2","M3 21V4h18v17M3 12h18M12 4v17M7 8h1m8 0h1M7 16h1m8 0h1M2 21h20"];
+const strategyLabels = ["TRANSFORMAR Y VENDER", "NUEVOS USOS", "VISIÓN DE CONJUNTO", "INGRESOS RECURRENTES", "ALQUILER POR HABITACIONES"];
+function StrategyIcon({index}:{index:number}) { return <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" style={{width:30,height:30,flexShrink:0}}><path d={strategyIconPaths[index]}/></svg>; }
+
 export default function Home() {
   return <main>
     <section className="hero"><div className="wrap hero-inner">
@@ -33,7 +37,7 @@ export default function Home() {
       <div className="grid steps-grid">{steps.map(([n,t,d])=><article className="card card-body" key={n}><span className="kicker">{n}</span><h3>{t}</h3><p className="muted">{d}</p></article>)}</div>
     </div></section>
     <section className="section wrap" id="tipos-de-inversion"><span className="kicker">Tipos de inversión</span><h2>Diferentes estrategias.<br/>Un enfoque adaptado a ti.</h2>
-      <div className="grid">{strategies.map(([t,d])=><article className="card card-body" key={t}><h3>{t}</h3><p className="muted">{d}</p></article>)}</div>
+      <div className="investment-grid">{strategies.map(([t,d],i)=><article className="investment-card" key={t}><div className="investment-card-top"><span className="investment-icon" style={{display:"inline-flex",width:62,height:62,alignItems:"center",justifyContent:"center",color:"#b79050"}}><StrategyIcon index={i}/></span><span className="investment-number">0{i+1}</span></div><span className="investment-label">{strategyLabels[i]}</span><h3>{t}</h3><p className="muted">{d}</p><span className="investment-line" aria-hidden="true"/></article>)}</div>
       <p className="muted" style={{marginTop:24}}>La estrategia, los plazos y la forma de participar se definen para cada proyecto, según las características del activo y los objetivos del inversor.</p>
     </section>
     <section className="section subtle" id="sobre-nosotros"><div className="wrap"><span className="kicker">Property Investors</span><h2>Juntos hacia tus objetivos.</h2>
