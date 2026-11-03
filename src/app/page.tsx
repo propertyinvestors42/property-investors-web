@@ -25,8 +25,8 @@ export default function Home() {
     <section className="section wrap" id="que-hacemos"><span className="kicker">Qué hacemos</span>
       <h2>Cada inversor tiene sus objetivos.<br/>Cada activo, su oportunidad.</h2>
       <div className="grid service-grid">
-        <article className="card card-body"><h3>Conectamos inversores y oportunidades</h3><p className="muted">Primero te conocemos. Entendemos qué quieres conseguir y buscamos oportunidades que encajen con tu presupuesto, tus preferencias y tu estrategia. Te acompañamos durante todo el proceso.</p></article>
-        <article className="card card-body"><h3>También generamos oportunidades</h3><p className="muted">Localizamos activos con potencial inversor y estudiamos cómo desarrollar su valor. Según el proyecto, planteamos la estrategia y la forma de participación más adecuadas, incluidas las cuentas en participación.</p></article>
+        <article className="card card-body"><h3>Conectamos inversores y oportunidades</h3><p style={{fontSize:18,lineHeight:1.5,marginBottom:16}}>Una inversión empieza por entender a quien invierte.</p><p className="muted">Escuchamos tus objetivos y conocemos tu presupuesto, tus preferencias y tu horizonte de inversión. Con esa información, seleccionamos oportunidades que encajen contigo y te ayudamos a valorar cada propuesta.</p><p className="muted" style={{marginTop:16}}>Te acompañamos desde la primera conversación hasta el desarrollo de la operación, con información clara y un trato cercano en cada paso.</p></article>
+        <article className="card card-body"><h3>También generamos oportunidades</h3><p style={{fontSize:18,lineHeight:1.5,marginBottom:16}}>Detectamos el potencial de un activo y lo convertimos en una propuesta de inversión.</p><p className="muted">Identificamos inmuebles con posibilidades de mejora y analizamos las alternativas para desarrollar su valor. Estudiamos su viabilidad, los costes, los plazos y los riesgos para definir una estrategia con fundamento.</p><p className="muted" style={{marginTop:16}}>A partir de ese análisis, estructuramos cada oportunidad y buscamos la fórmula que mejor encaje con el proyecto y con los inversores que participan.</p></article>
       </div>
     </section>
     <section className="section subtle" id="como-trabajamos"><div className="wrap"><span className="kicker">Cómo trabajamos</span><h2>De tus objetivos a una propuesta concreta.</h2>
@@ -34,7 +34,7 @@ export default function Home() {
     </div></section>
     <section className="section wrap" id="tipos-de-inversion"><span className="kicker">Tipos de inversión</span><h2>Diferentes estrategias.<br/>Un enfoque adaptado a ti.</h2>
       <div className="grid">{strategies.map(([t,d])=><article className="card card-body" key={t}><h3>{t}</h3><p className="muted">{d}</p></article>)}</div>
-      <p className="muted" style={{marginTop:24}}>Las cuentas en participación son una modalidad de participación en un proyecto. La estrategia, el plazo y las condiciones se estudian en cada operación.</p>
+      <p className="muted" style={{marginTop:24}}>La estrategia, los plazos y la forma de participar se definen para cada proyecto, según las características del activo y los objetivos del inversor.</p>
     </section>
     <section className="section subtle" id="sobre-nosotros"><div className="wrap"><span className="kicker">Property Investors</span><h2>Juntos hacia tus objetivos.</h2>
       <p className="muted" style={{maxWidth:780}}>Property Investors conecta oportunidades inmobiliarias con personas que quieren invertir. Nuestro punto de partida es escuchar: entender tus objetivos y acompañarte con una propuesta adaptada a tus características. Además de buscar activos, trabajamos en generar oportunidades con una estrategia definida para cada proyecto.</p>
