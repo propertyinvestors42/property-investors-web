@@ -316,3 +316,12 @@ body{background:#faf9f6;color:var(--ink)}
 @media(max-width:380px){
  .hero-headline{font-size:clamp(19px,5.25vw,22px)!important;letter-spacing:-.065em!important}
 }
+
+/* Fit longest headline phrase inside narrow phone viewports */
+@media(max-width:720px){
+ .hero-headline{font-size:clamp(18px,4.85vw,32px)!important;letter-spacing:-.065em!important;line-height:1.2}
+ .hero-headline-line{white-space:nowrap}
+}
+@media(max-width:380px){
+ .hero-headline{font-size:clamp(17px,4.7vw,19px)!important;letter-spacing:-.07em!important}
+}
