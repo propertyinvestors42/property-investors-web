@@ -134,3 +134,13 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offs
 .complementary-icon svg{width:34px;height:34px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
 .complementary-card h3{margin-bottom:12px}
 @media(max-width:600px){.complementary-icon{width:58px;height:58px;margin-bottom:16px}.complementary-icon svg{width:30px;height:30px}}
+
+/* High-visibility owner CTA directly below homepage hero */
+.asset-top-banner{background:#f8f3e9;border-top:1px solid #e6d7b9;border-bottom:1px solid #e6d7b9;padding:24px 0}
+.asset-top-banner-inner{display:flex;align-items:center;gap:20px}
+.asset-top-banner-icon{width:62px;height:62px;flex-shrink:0;border-radius:15px;background:#ead8b7;color:#8e662d;display:flex;align-items:center;justify-content:center}
+.asset-top-banner-copy{display:flex;flex:1;flex-direction:column;gap:5px}
+.asset-top-banner-copy strong{font-size:1.16rem;color:#201d19}
+.asset-top-banner-copy span{font-size:.96rem;color:#665c4e}
+.asset-top-banner-button{white-space:nowrap}
+@media(max-width:720px){.asset-top-banner{padding:22px 0}.asset-top-banner-inner{flex-wrap:wrap;gap:12px}.asset-top-banner-icon{width:48px;height:48px}.asset-top-banner-icon svg{width:28px;height:28px}.asset-top-banner-copy{flex:1 1 calc(100% - 65px)}.asset-top-banner-copy strong{font-size:1.02rem}.asset-top-banner-copy span{font-size:.88rem}.asset-top-banner-button{width:100%;text-align:center;justify-content:center}}
