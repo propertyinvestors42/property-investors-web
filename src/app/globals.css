@@ -308,3 +308,30 @@ body{background:#faf9f6;color:var(--ink)}
 @media(max-width:380px){
  .hero-headline{font-size:clamp(24px,6.7vw,26px)!important;letter-spacing:-.095em!important}
 }
+
+/* More polished introductory service cards, tighter transition from hero */
+.intro-services.section{padding-top:48px;padding-bottom:66px}
+.intro-services>h2{margin-bottom:20px}
+.intro-services .service-grid{margin-top:25px;gap:24px;align-items:stretch}
+.intro-services .intro-service-card{
+ position:relative;padding:32px 34px 34px;
+ border:1px solid #e5dfd3;border-top:4px solid #c4a064;
+ border-radius:14px;background:linear-gradient(150deg,#fff,#fcfaf6);
+ box-shadow:0 8px 28px #3027160d;
+}
+.intro-services .intro-service-card svg{width:38px!important;height:38px!important;margin-bottom:15px!important;stroke:#a58048}
+.intro-services .intro-service-title{
+ font-size:clamp(20px,2vw,24px)!important;line-height:1.25;
+ font-weight:800;letter-spacing:.015em!important;color:#2b2925;
+ margin:8px 0 19px;padding-bottom:15px;border-bottom:1px solid #e9e2d7;
+}
+.intro-services .intro-service-lead{font-size:18px!important;line-height:1.55!important;font-weight:550;color:#35322d;margin:0 0 15px!important}
+.intro-services .intro-service-card .muted{font-size:15.5px;line-height:1.75;color:#69635b}
+@media(max-width:720px){
+ .intro-services.section{padding-top:32px;padding-bottom:45px}
+ .intro-services .service-grid{margin-top:20px;gap:17px}
+ .intro-services .intro-service-card{padding:24px 23px 26px}
+ .intro-services .intro-service-title{font-size:20px!important;margin:7px 0 15px;padding-bottom:13px}
+ .intro-services .intro-service-lead{font-size:16px!important;line-height:1.6!important}
+ .intro-services .intro-service-card .muted{font-size:15px;line-height:1.7}
+}
