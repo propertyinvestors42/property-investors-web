@@ -19,6 +19,7 @@ export default function Home() {
       <p>Conectamos inversores y oportunidades inmobiliarias. Conocemos tus objetivos, identificamos proyectos que encajan contigo y te acompañamos para que puedas tomar decisiones de inversión con criterio y confianza.</p>
       <p className="hero-tagline">Juntos hacia tus objetivos.</p><div className="actions"><Link className="button" href="/inversores">Cuéntanos qué buscas</Link><a className="button button-outline" href="#como-trabajamos">Cómo trabajamos</a></div>
     </div></section>
+    <section className="asset-top-banner" aria-label="Ofrece tu inmueble"><div className="wrap asset-top-banner-inner"><span className="asset-top-banner-icon" aria-hidden="true"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M3 11 12 3l9 8M5 10v11h14V10M9 21v-7h6v7M17 5h4m-2-2v4"/></svg></span><div className="asset-top-banner-copy"><strong>¿Tienes un inmueble que quieres ofrecer?</strong><span>Cuéntanoslo y estudiaremos su potencial. Puedes adjuntar fotos y vídeo.</span></div><Link className="button asset-top-banner-button" href="/ofrece-tu-activo">Ofrece tu activo →</Link></div></section>
     <section className="section wrap" id="que-hacemos"><span className="kicker">Qué hacemos</span>
       <h2>Cada inversor tiene sus objetivos.<br/>Cada activo, su oportunidad.</h2>
       <div className="grid service-grid">
