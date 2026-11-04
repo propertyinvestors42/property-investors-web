@@ -325,3 +325,11 @@ body{background:#faf9f6;color:var(--ink)}
 @media(max-width:380px){
  .hero-headline{font-size:clamp(17px,4.7vw,19px)!important;letter-spacing:-.07em!important}
 }
+
+/* Final mobile headline balance: slightly larger, still two unbroken lines */
+@media(max-width:720px){
+ .hero-headline{font-size:clamp(19px,5.1vw,34px)!important;letter-spacing:-.067em!important;line-height:1.19}
+}
+@media(max-width:380px){
+ .hero-headline{font-size:clamp(18px,4.9vw,20px)!important;letter-spacing:-.07em!important}
+}
