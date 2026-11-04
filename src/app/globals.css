@@ -144,3 +144,69 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offs
 .asset-top-banner-copy span{font-size:.96rem;color:#665c4e}
 .asset-top-banner-button{white-space:nowrap}
 @media(max-width:720px){.asset-top-banner{padding:22px 0}.asset-top-banner-inner{flex-wrap:wrap;gap:12px}.asset-top-banner-icon{width:48px;height:48px}.asset-top-banner-icon svg{width:28px;height:28px}.asset-top-banner-copy{flex:1 1 calc(100% - 65px)}.asset-top-banner-copy strong{font-size:1.02rem}.asset-top-banner-copy span{font-size:.88rem}.asset-top-banner-button{width:100%;text-align:center;justify-content:center}}
+
+/* Editorial polish: consistent headings, cards and mobile-first readability */
+html{overflow-x:clip}
+body{overflow-wrap:break-word}
+.section h2{max-width:900px;text-wrap:balance}
+.section-kicker{display:inline-flex;align-items:center;gap:12px}
+.section-kicker:before{content:"";width:26px;height:2px;background:var(--gold);flex:none}
+.section h2{font-weight:650;line-height:1.14}
+.service-grid .card,.steps-grid .card,.complementary-card{transition:transform .2s ease,box-shadow .2s ease}
+.service-grid .card:hover,.steps-grid .card:hover{transform:translateY(-3px);box-shadow:0 14px 30px #30271612}
+.service-grid .card svg{background:#f8f2e7;border-radius:13px;box-sizing:content-box;padding:12px}
+.service-grid .card h3{line-height:1.3;color:#242019}
+.service-grid .card p{overflow-wrap:anywhere}
+.step-head{display:flex;align-items:center;gap:13px;margin-bottom:18px}
+.step-rule{height:1px;background:#e6d9c2;flex:1}
+.steps-grid .card{border-top:3px solid #d3ae6d}
+.steps-grid h3{line-height:1.3;margin-bottom:12px}
+.complementary-card{background:linear-gradient(160deg,#fff 70%,#faf7f0)}
+.complementary-card h3{line-height:1.28;letter-spacing:-.02em}
+.investment-more{display:inline-flex;align-items:center;gap:9px}
+.investment-more span{transition:transform .2s ease}
+.investment-card:hover .investment-more span{transform:translateX(4px)}
+.asset-top-banner{background:linear-gradient(110deg,#fbf8f0,#f2e8d6)}
+.asset-top-banner-inner{gap:22px}
+.asset-top-eyebrow{color:#956d33!important;font-size:10px!important;font-weight:800;letter-spacing:.14em;line-height:1.4}
+.asset-top-banner-copy strong{font-size:clamp(18px,2vw,23px);letter-spacing:-.025em;line-height:1.25}
+.asset-top-banner-copy>span:last-child{line-height:1.55}
+.asset-top-banner-button{border-radius:8px;box-shadow:0 5px 16px #8e662d22}
+.asset-top-banner-button:hover{background:#dbb875}
+.asset-spotlight h2{max-width:750px}
+.asset-spotlight .button{margin-top:8px}
+.faq summary{position:relative;padding-right:35px;line-height:1.45}
+.faq summary::marker{color:#b79050}
+@media(max-width:960px){.steps-grid .card-body{padding:23px}.service-grid .card-body{padding:24px}}
+@media(max-width:720px){
+ .section{padding-top:58px;padding-bottom:58px}
+ .section h2{font-size:clamp(28px,7.3vw,38px);line-height:1.16;letter-spacing:-.035em;margin:14px 0 22px}
+ .section-kicker{font-size:11px;letter-spacing:.17em;line-height:1.5}
+ .section-kicker:before{width:18px}
+ .card-body{padding:22px}
+ .service-grid,.steps-grid,.investment-grid,.complementary-grid{gap:15px}
+ .service-grid .card h3{font-size:18px!important;letter-spacing:.015em!important}
+ .service-grid .card p{font-size:16px!important;line-height:1.65!important}
+ .service-grid .card svg{width:28px!important;height:28px!important;margin-bottom:14px!important}
+ .steps-grid h3,.complementary-card h3{font-size:20px}
+ .asset-top-banner{padding:21px 0}
+ .asset-top-banner-inner{gap:12px}
+ .asset-top-banner-copy strong{font-size:18px}
+ .asset-top-banner-copy>span:last-child{font-size:14px}
+ .asset-top-banner-button{min-height:48px;display:flex;align-items:center;justify-content:center}
+ .asset-spotlight h2{font-size:clamp(28px,7.3vw,38px)}
+ .asset-spotlight .button{display:inline-flex;min-height:48px;align-items:center;justify-content:center}
+ .faq summary{font-size:17px}
+ .hero-tagline{margin-top:12px!important}
+}
+@media(max-width:420px){
+ .wrap,.wrap.section{padding-left:19px;padding-right:19px}
+ .investment-card{padding:21px}
+ .investment-card h3{font-size:21px}
+ .asset-top-banner-copy strong{font-size:17px}
+ .asset-spotlight-icon{width:70px;height:70px}
+ .asset-spotlight-icon svg{width:45px;height:45px}
+ .asset-spotlight .button{width:100%;text-align:center}
+ .section{padding-top:48px;padding-bottom:48px}
+}
+@media(prefers-reduced-motion:reduce){.service-grid .card,.steps-grid .card,.complementary-card,.investment-more span{transition:none!important;transform:none!important}}
