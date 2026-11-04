@@ -335,3 +335,7 @@ body{background:#faf9f6;color:var(--ink)}
  .intro-services .intro-service-lead{font-size:16px!important;line-height:1.6!important}
  .intro-services .intro-service-card .muted{font-size:15px;line-height:1.7}
 }
+
+/* Match the two service headings to their corresponding hero headline colors */
+#que-hacemos .intro-service-card:first-child .intro-service-title{color:#514d47!important}
+#que-hacemos .intro-service-card:nth-child(2) .intro-service-title{color:#a88651!important}
