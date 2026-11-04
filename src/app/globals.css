@@ -297,39 +297,14 @@ body{background:#faf9f6;color:var(--ink)}
  .header-brand .brand span{font-size:12px;letter-spacing:.25em;margin-top:5px}
 }
 
-/* Keep the two hero statements on exactly two lines at desktop widths */
+/* Two hero statements, each on its own line. Mobile size visibly increased. */
 .hero-inner{max-width:1120px}
 .hero-headline{font-size:clamp(34px,5vw,66px);letter-spacing:-.055em}
 .hero-headline-line{display:block;white-space:nowrap}
 @media(max-width:720px){
- .hero-headline{font-size:clamp(24px,5.9vw,42px);letter-spacing:-.05em}
- .hero-headline-line{white-space:nowrap}
-}
-@media(max-width:380px){.hero-headline{font-size:clamp(22px,5.7vw,25px)}}
-
-/* Mobile-only: two complete headline lines without horizontal overflow */
-@media(max-width:720px){
- .hero-headline{font-size:clamp(20px,5.45vw,38px)!important;letter-spacing:-.055em!important;line-height:1.16}
- .hero-headline-line{display:block;white-space:nowrap}
  .hero-inner{max-width:100%;min-width:0}
+ .hero-headline{font-size:clamp(21px,5.55vw,36px)!important;letter-spacing:-.07em!important;line-height:1.18}
 }
 @media(max-width:380px){
- .hero-headline{font-size:clamp(19px,5.25vw,22px)!important;letter-spacing:-.065em!important}
-}
-
-/* Fit longest headline phrase inside narrow phone viewports */
-@media(max-width:720px){
- .hero-headline{font-size:clamp(18px,4.85vw,32px)!important;letter-spacing:-.065em!important;line-height:1.2}
- .hero-headline-line{white-space:nowrap}
-}
-@media(max-width:380px){
- .hero-headline{font-size:clamp(17px,4.7vw,19px)!important;letter-spacing:-.07em!important}
-}
-
-/* Final mobile headline balance: slightly larger, still two unbroken lines */
-@media(max-width:720px){
- .hero-headline{font-size:clamp(19px,5.1vw,34px)!important;letter-spacing:-.067em!important;line-height:1.19}
-}
-@media(max-width:380px){
- .hero-headline{font-size:clamp(18px,4.9vw,20px)!important;letter-spacing:-.07em!important}
+ .hero-headline{font-size:clamp(20px,5.55vw,21px)!important}
 }
