@@ -210,3 +210,7 @@ body{overflow-wrap:break-word}
  .section{padding-top:48px;padding-bottom:48px}
 }
 @media(prefers-reduced-motion:reduce){.service-grid .card,.steps-grid .card,.complementary-card,.investment-more span{transition:none!important;transform:none!important}}
+
+/* Keep the WhatsApp brand mark sharp and readable on all screens */
+.header-contact .whatsapp-header-icon{width:25px!important;height:25px!important;min-width:25px;flex-shrink:0;display:block;stroke:none!important}
+@media(max-width:720px){.header-contact .whatsapp-header-icon{width:27px!important;height:27px!important;min-width:27px}}
