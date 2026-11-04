@@ -268,3 +268,7 @@ body{background:#faf9f6;color:var(--ink)}
 /* Softer homepage headline, retaining contrast on warm background */
 .hero h1{color:#514d47}
 .hero h1 .gold{color:#a88651}
+
+/* Balanced midpoint between original dark and softened headline */
+.hero h1{color:#393630}
+.hero h1 .gold{color:#a17e46}
