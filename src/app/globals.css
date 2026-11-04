@@ -84,3 +84,28 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offs
 .mobile-menu summary{padding:8px}
 .hero .wrap{padding-left:20px;padding-right:20px}
 }
+
+/* Investment pages and complementary services */
+.hero-tagline{color:var(--gold)!important;font-weight:700}
+.investment-card{display:block;color:inherit}
+.investment-more{display:inline-block;font-size:14px;font-weight:700;color:#846026;margin-top:5px}
+.complementary-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin:32px 0 18px}
+.complementary-grid h3{font-size:20px}
+.investment-hero{background:#111;color:white;padding:65px 0 75px}
+.investment-hero .page-title{max-width:900px}
+.investment-hero p{color:#d4c5ab;font-size:21px}
+.back-link{display:inline-block;color:#a77c39;font-weight:700;margin-bottom:28px}
+.investment-hero .back-link{color:#e2c58d;display:block}
+.investment-detail{max-width:850px;padding-top:48px;padding-bottom:85px}
+.investment-detail section{padding:20px 0 34px;border-bottom:1px solid #e4ded4}
+.investment-detail h2{font-size:clamp(27px,3.4vw,37px)}
+.investment-detail p,.investment-detail li{font-size:17px;line-height:1.75;color:#49443d}
+.investment-detail li{margin-bottom:10px}
+.investment-detail ul{padding-left:24px}
+.investment-detail .capital-panel{background:#f1eee7;border:1px solid #e0d5c2;border-radius:14px;padding:30px;margin-top:24px}
+.capital-amount{display:block;font-size:clamp(34px,5vw,50px);color:#171717;margin:20px 0}
+.investment-detail .investment-disclaimer{font-size:13px}
+.investment-detail .investment-cta{background:#141414;color:white;padding:36px;border-radius:14px;margin:28px 0}
+.investment-cta p{color:#d4d0c8}
+@media(max-width:900px){.complementary-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.complementary-grid{grid-template-columns:1fr}.investment-hero{padding:44px 0}.investment-detail .capital-panel,.investment-detail .investment-cta{padding:24px}}
