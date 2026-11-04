@@ -127,3 +127,10 @@ a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offs
 .asset-form-brand span{display:block;color:#776b5c;font-size:14px;margin-top:6px}
 .asset-form-brand+section{margin-top:0!important;border-radius:0 0 16px 16px!important;border:1px solid #e7dccb;border-top:0}
 @media(max-width:600px){.asset-form-brand{padding:15px;gap:12px}.asset-form-brand img{width:72px!important;height:72px!important}.asset-form-brand span{font-size:12px}}
+
+.complementary-card{position:relative;overflow:hidden;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease;border-top:3px solid #cba25a}
+.complementary-card:hover{transform:translateY(-4px);box-shadow:0 14px 32px rgba(30,24,16,.09)}
+.complementary-icon{display:inline-flex;align-items:center;justify-content:center;width:66px;height:66px;border-radius:16px;background:#f6f0e5;border:1px solid #e8d9be;color:#a37b3e;margin-bottom:20px}
+.complementary-icon svg{width:34px;height:34px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.complementary-card h3{margin-bottom:12px}
+@media(max-width:600px){.complementary-icon{width:58px;height:58px;margin-bottom:16px}.complementary-icon svg{width:30px;height:30px}}
