@@ -252,3 +252,15 @@ body{background:#faf9f6;color:var(--ink)}
  .asset-spotlight-icon{background:#fff}
 }
 @media(max-width:420px){.hero{padding-top:34px;padding-bottom:42px}}
+
+/* Light homepage hero; retain existing dimensions, spacing and responsive proportions */
+.hero{background:radial-gradient(circle at 86% 22%,#fffdf9,#f5f2ec 65%);color:#242321}
+.hero h1{color:#242321}
+.hero h1 .gold{color:#9a753b}
+.hero .kicker{color:#967343}
+.hero p{color:#5d5952}
+.hero .hero-tagline{color:#8b6a39!important}
+.hero .button:not(.button-outline){background:#c4a064;color:#242321}
+.hero .button-outline{border:1px solid #8b806e;color:#242321;background:transparent}
+.hero .button-outline:hover{background:#ece5d8}
+@media(max-width:720px){.hero{background:linear-gradient(145deg,#fffdf9,#f5f2ec)}}
