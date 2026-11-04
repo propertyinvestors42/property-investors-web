@@ -303,8 +303,8 @@ body{background:#faf9f6;color:var(--ink)}
 .hero-headline-line{display:block;white-space:nowrap}
 @media(max-width:720px){
  .hero-inner{max-width:100%;min-width:0}
- .hero-headline{font-size:clamp(25px,6.8vw,45px)!important;letter-spacing:-.085em!important;line-height:1.18}
+ .hero-headline{font-size:clamp(26px,7.05vw,46px)!important;letter-spacing:-.09em!important;line-height:1.18}
 }
 @media(max-width:380px){
- .hero-headline{font-size:clamp(23px,6.5vw,25px)!important;letter-spacing:-.09em!important}
+ .hero-headline{font-size:clamp(24px,6.7vw,26px)!important;letter-spacing:-.095em!important}
 }
