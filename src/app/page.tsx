@@ -15,7 +15,7 @@ export default function Home() {
   return <main>
     <section className="hero"><div className="wrap hero-inner">
       <div className="kicker">PROPERTY INVESTORS</div>
-      <h1>Identificamos oportunidades.<br/><span className="gold">Impulsamos inversiones.</span></h1>
+      <h1 className="hero-headline"><span className="hero-headline-line">Identificamos oportunidades.</span><span className="hero-headline-line gold">Impulsamos inversiones.</span></h1>
       <p>Tanto si estás dando tus primeros pasos como si ya tienes experiencia, queremos conocer tus objetivos. Buscamos oportunidades inmobiliarias y te ayudamos a valorar cada proyecto con información clara y acompañamiento cercano.</p>
       <p className="hero-tagline">Juntos hacia tus objetivos.</p><div className="actions"><Link className="button" href="/inversores">Cuéntanos qué buscas</Link><a className="button button-outline" href="#como-trabajamos">Cómo trabajamos</a></div>
     </div></section>
