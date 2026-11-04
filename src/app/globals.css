@@ -214,3 +214,41 @@ body{overflow-wrap:break-word}
 /* Keep the WhatsApp brand mark sharp and readable on all screens */
 .header-contact .whatsapp-header-icon{width:25px!important;height:25px!important;min-width:25px;flex-shrink:0;display:block;stroke:none!important}
 @media(max-width:720px){.header-contact .whatsapp-header-icon{width:27px!important;height:27px!important;min-width:27px}}
+
+/* Brand evolution: approachable sophistication, restrained gold */
+:root{--gold:#c4a064;--ink:#242321}
+body{background:#faf9f6;color:var(--ink)}
+.hero{background:radial-gradient(circle at 86% 22%,#37342f,#171717 60%);padding-top:100px;padding-bottom:105px}
+.hero h1{font-weight:600}
+.hero p{color:#e0ddd7;line-height:1.65}
+.hero .button:not(.button-outline){background:#d5b779}
+.hero .button-outline{border-color:#aaa39a;color:#f5f2ec}
+.section.subtle{background:#f5f2ec}
+.card{border-color:#e7e3db}
+.service-grid .card,.investment-card,.complementary-card{background:#fff;border-color:#e8e2d7;box-shadow:0 5px 22px #2c251408}
+.investment-card{background:linear-gradient(155deg,#fff,#fbfaf7)}
+.investment-icon,.complementary-icon{background:#f5f1e9;border-color:#e7dfd1;color:#997849}
+.investment-number{color:#e0d9ce}
+.investment-label,.investment-more{color:#85683e}
+.steps-grid .card{background:#fff}
+.asset-top-banner{background:#f5f1e8;border-color:#e8e1d4}
+.asset-top-banner-icon{background:#eae1d1;color:#82633b}
+.asset-top-banner-button{background:#c4a064;box-shadow:none}
+.asset-spotlight{background:#f2eee6;color:#242321;border-top:1px solid #e5dbcb;border-bottom:1px solid #e5dbcb}
+.asset-spotlight .muted{color:#615d55}
+.asset-spotlight .kicker{color:#85683e}
+.asset-spotlight-icon{color:#997849;background:#fff;border-color:#e1d4be}
+.asset-spotlight-note{color:#746c5e}
+.asset-spotlight .button{background:#c4a064}
+.header-booking{box-shadow:none}
+.section h2{color:#25231f}
+.faq details{border-color:#e8e2d7}
+@media(max-width:720px){
+ .hero{padding-top:42px;padding-bottom:50px}
+ .hero p{line-height:1.65}
+ .asset-top-banner-inner{align-items:flex-start}
+ .asset-top-banner-copy{min-width:0}
+ .asset-spotlight-inner{gap:22px}
+ .asset-spotlight-icon{background:#fff}
+}
+@media(max-width:420px){.hero{padding-top:34px;padding-bottom:42px}}
