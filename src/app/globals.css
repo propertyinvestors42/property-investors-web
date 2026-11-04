@@ -276,3 +276,23 @@ body{background:#faf9f6;color:var(--ink)}
 /* Restore the previously preferred softer hero headline */
 .hero h1{color:#514d47}
 .hero h1 .gold{color:#a88651}
+
+/* More distinctive, still approachable header wordmark */
+.header-brand .brand{
+  font-family:"Trebuchet MS",Arial,sans-serif;
+  font-weight:700;
+  letter-spacing:.105em;
+  line-height:1.05;
+  text-transform:uppercase;
+}
+.header-brand .brand span{
+  font-family:Arial,Helvetica,sans-serif;
+  font-weight:500;
+  letter-spacing:.38em;
+  color:#d1ad72;
+  margin-top:7px;
+}
+@media(max-width:720px){
+ .header-brand .brand{font-size:18px;letter-spacing:.075em;line-height:1.1}
+ .header-brand .brand span{font-size:12px;letter-spacing:.25em;margin-top:5px}
+}
