@@ -264,3 +264,7 @@ body{background:#faf9f6;color:var(--ink)}
 .hero .button-outline{border:1px solid #8b806e;color:#242321;background:transparent}
 .hero .button-outline:hover{background:#ece5d8}
 @media(max-width:720px){.hero{background:linear-gradient(145deg,#fffdf9,#f5f2ec)}}
+
+/* Softer homepage headline, retaining contrast on warm background */
+.hero h1{color:#514d47}
+.hero h1 .gold{color:#a88651}
