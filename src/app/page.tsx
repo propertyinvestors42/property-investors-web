@@ -8,7 +8,7 @@ const steps = [
   ["04", "Te acompañamos", "Mantenemos el contacto y te acompañamos durante todo el proceso de inversión."]
 ];
 const strategyIconPaths = ["M3 11 12 3l9 8M5 10v11h14V10M9 21v-7h6v7","M4 8h14m-4-4 4 4-4 4M20 16H6m4-4-4 4 4 4M4 3v2m16 14v2","M4 21V3h11v18M15 9h5v12M8 7h3M8 11h3M8 15h3M8 19h3M18 13v1m0 3v1M2 21h20","M3 11 9 5l6 6M5 10v10h8v-6m2-1a3 3 0 1 1 4 3l-2 2h-2v2h-2","M3 21V4h18v17M3 12h18M12 4v17M7 8h1m8 0h1M7 16h1m8 0h1M2 21h20"];
-const strategyLabels = ["TRANSFORMAR Y VENDER", "VISIÓN DE CONJUNTO", "NUEVOS USOS", "INGRESOS RECURRENTES", "ALQUILER POR HABITACIONES"];
+const strategyLabels = ["TRANSFORMAR Y VENDER", "VISIÓN DE CONJUNTO", "NUEVOS USOS", "INGRESOS RECURRENTES", "MAXIMIZA TU RENTABILIDAD"];
 function StrategyIcon({index}:{index:number}) { return <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" style={{width:30,height:30,flexShrink:0}}><path d={strategyIconPaths[index]}/></svg>; }
 
 export default function Home() {
