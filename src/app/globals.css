@@ -272,3 +272,7 @@ body{background:#faf9f6;color:var(--ink)}
 /* Balanced midpoint between original dark and softened headline */
 .hero h1{color:#393630}
 .hero h1 .gold{color:#a17e46}
+
+/* Restore the previously preferred softer hero headline */
+.hero h1{color:#514d47}
+.hero h1 .gold{color:#a88651}
